@@ -29,12 +29,6 @@ Sun, sun, sun, here it comes
 Sun, sun, sun, here it comes
 Sun, sun, sun, here it comes"""
 
-#this line prints the length of characters , or how many characters are in the lyrics
-#print(len(text))
-#if we want to know how many words there are in the text we use split
-#print(text.split())
-#print(len(text.split()))
-
 word_count={}
 for word in text.lower().split():
   if word in word_count:
@@ -42,3 +36,10 @@ for word in text.lower().split():
   else:
     word_count[word]=1
 print(word_count)
+
+#more functions to explore:
+#this line prints the length of characters , or how many characters are in the lyrics
+#print(len(text))
+#if we want to know how many words there are in the text we use split
+#print(text.split())
+#print(len(text.split()))
